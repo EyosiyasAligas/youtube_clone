@@ -1,16 +1,29 @@
-# youtube_clone2
+This is a simple YouTube clone built using Flutter, which has features like video searching, video Playing, and Google sign in. The project was implemented by two people.
 
-A new Flutter project.
+Contributors:
 
-## Getting Started
+Eyosiyas Aligas 1201635
+Dereje Getachew 1201438
 
-This project is a starting point for a Flutter application.
+To get started with this project, follow the steps below:
 
-A few resources to get you started if this is your first Flutter project:
+Clone the repository
+Use the git clone command to clone the repository to your local machine.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Install dependencies
+Navigate to the project directory and run flutter pub get to install the necessary dependencies.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Run the app
+Run the app using flutter run command in your terminal or through your preferred IDE.
+
+This app includes the following features: 
+Sign-in with Google
+Users can sign in to the app using their Google account. Firebase authentication is used for Google sign-in. When a user signs in, their credentials are saved, and they
+will remain signed in even if they close the app.
+
+Video feed
+The app fetches videos using the YouTube API. Users can scroll through a list of videos in the app. They can also search for videos using the search bar at the top of
+the screen. The video feed displays a thumbnail image of each video along with its title and and other information related to the video. 
+
+Video player 
+The app uses the Youtube_player_flutter plugin to play videos. When a user taps on a video in the video feed, the video player screen opens. The video player screen displays the video along with its title. Users can play, pause, and seek the video using the player controls.
