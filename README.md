@@ -1,9 +1,10 @@
-This is a simple YouTube clone built using Flutter, which has features like video searching, video Playing, and Google sign in. The project was implemented by two people.
+This is a simple YouTube clone built using Flutter, which has features like video searching, video Playing, and Google sign in. The project was implemented by two
+people.
 
 Contributors:
 
-Eyosiyas Aligas 1201635:
-Dereje Getachew 1201438:
+Eyosiyas Aligas 1201635
+Dereje Getachew 1201438
 
 To get started with this project, follow the steps below:
 
