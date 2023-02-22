@@ -26,10 +26,10 @@ Run the app using flutter run command in your terminal or through your preferred
 
 This app includes the following features: 
 
-Sign-in with Google
+Sign-in and Sign-out with Google
 
 Users can sign in to the app using their Google account. Firebase authentication is used for Google sign-in. When a user signs in, their credentials are saved, and they
-will remain signed in even if they close the app.
+will remain signed in even if they close the app. When the user signs out an authentication screen appears and the user can again sign in with theier google account.
 
 
 Video feed
