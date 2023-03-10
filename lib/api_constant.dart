@@ -4,7 +4,7 @@ import 'package:intl/intl.dart';
 import 'package:youtube_api/youtube_api.dart';
 
 class ApiConstant {
-  static const String apiKey = 'AIzaSyBhhN_XkJ-OUlZRGwAzMrxzAg2CrSfwW7k';
+  static const String apiKey = 'Enter Your API KEY';
   static List<YouTubeVideo> videos = [];
   static final YoutubeAPI yt =  YoutubeAPI(apiKey, maxResults: 6, type: 'video, channel, playlist');
 }
